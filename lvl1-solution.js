@@ -31,7 +31,7 @@ function startLevel(map) {
     }
 
     for (x = 5; x <= map.getWidth() - 5; x++) {
-        map.placeObject(x, 3, 'block');    
+        map.placeObject(x, 1, 'block');    // I changed the y coordinate. To lift the wall & escape. 
         map.placeObject(x, map.getHeight() - 10,  'block');
     }
 
